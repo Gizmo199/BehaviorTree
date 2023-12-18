@@ -1,0 +1,17 @@
+{
+  "FolderOrderSettings": [
+    {"name":"Objects","order":2,"path":"folders/Objects.yy",},
+    {"name":"Rooms","order":3,"path":"folders/Rooms.yy",},
+    {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"bh_tree","order":1,"path":"scripts/bh_tree/bh_tree.yy",},
+    {"name":"Entity","order":1,"path":"objects/Entity/Entity.yy",},
+    {"name":"rm_play","order":1,"path":"rooms/rm_play/rm_play.yy",},
+    {"name":"bh_action","order":5,"path":"scripts/bh_action/bh_action.yy",},
+    {"name":"sp_entity_mask","order":2,"path":"sprites/sp_entity_mask/sp_entity_mask.yy",},
+    {"name":"bh_sequence","order":3,"path":"scripts/bh_sequence/bh_sequence.yy",},
+    {"name":"bh_selector","order":2,"path":"scripts/bh_selector/bh_selector.yy",},
+    {"name":"bh_condition","order":4,"path":"scripts/bh_condition/bh_condition.yy",},
+  ],
+}

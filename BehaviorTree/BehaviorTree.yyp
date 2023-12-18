@@ -1,0 +1,45 @@
+{
+  "resourceType": "GMProject",
+  "resourceVersion": "1.7",
+  "name": "BehaviorTree",
+  "AudioGroups": [
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
+  ],
+  "configs": {
+    "children": [],
+    "name": "Default",
+  },
+  "defaultScriptType": 1,
+  "Folders": [
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"BehaviorTree","folderPath":"folders/BehaviorTree.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
+  ],
+  "IncludedFiles": [],
+  "isEcma": false,
+  "LibraryEmitters": [],
+  "MetaData": {
+    "IDEVersion": "2023.11.0.121",
+  },
+  "resources": [
+    {"id":{"name":"__BehaviorTree","path":"scripts/__BehaviorTree/__BehaviorTree.yy",},},
+    {"id":{"name":"bh_tree","path":"scripts/bh_tree/bh_tree.yy",},},
+    {"id":{"name":"Entity","path":"objects/Entity/Entity.yy",},},
+    {"id":{"name":"rm_play","path":"rooms/rm_play/rm_play.yy",},},
+    {"id":{"name":"bh_action","path":"scripts/bh_action/bh_action.yy",},},
+    {"id":{"name":"sp_entity_mask","path":"sprites/sp_entity_mask/sp_entity_mask.yy",},},
+    {"id":{"name":"bh_sequence","path":"scripts/bh_sequence/bh_sequence.yy",},},
+    {"id":{"name":"bh_selector","path":"scripts/bh_selector/bh_selector.yy",},},
+    {"id":{"name":"sp_collider_mask","path":"sprites/sp_collider_mask/sp_collider_mask.yy",},},
+    {"id":{"name":"Collider","path":"objects/Collider/Collider.yy",},},
+    {"id":{"name":"bh_condition","path":"scripts/bh_condition/bh_condition.yy",},},
+  ],
+  "RoomOrderNodes": [
+    {"roomId":{"name":"rm_play","path":"rooms/rm_play/rm_play.yy",},},
+  ],
+  "templateType": "game",
+  "TextureGroups": [
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
+  ],
+}
