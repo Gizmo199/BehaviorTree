@@ -10,8 +10,7 @@ function __BHTree() constructor {
 	root = n;
 	static step = function(){
 		for ( var i = 0; i<array_length(root); i++ ){
-			var result = root[i].evaluate();
-			if ( result != eBHStatus.Running ) break;
+			root[i].evaluate();
 		}
 	}
 	static add = function(_nodeTree){
