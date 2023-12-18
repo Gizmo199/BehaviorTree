@@ -23,7 +23,7 @@ So for instance if you wanted to make a simple **Patrol - Chase - Attack** enemy
 **CREATE EVENT**
 ```
 behavior = bh_tree();
-bh_tree.selector(
+behavior.selector(
   bh_sequence(
     bh_condition(checkEnemyNearby),
     bh_action(chaseEnemy)
